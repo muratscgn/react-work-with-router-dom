@@ -17,10 +17,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 - [x] Navbar Olusturulmasi
 - [x] Sayfa Yapisinin Olusturulmasi
 - [x] Sayfalara React Router Dom Uzerinden Ulasilabilmesi
-- [ ] Urunler Kisminin Olusturulmasi
+- [x] Urunler Kisminin Olusturulmasi
 - [x] Ana Sayfada 10 Urun Gosterilmesi
-- [ ] Urun Layout Yapisinin Olusturulasi -> Kategoriler ve Son 5 Urunun Linki
-- [ ] Urunlere Tiklaninca Detay Sayfasinin Acilmasi
+- [x] Urun Layout Yapisinin Olusturulasi -> Kategoriler ve Son 5 Urunun Linki
+- [x] Urunlere Tiklaninca Detay Sayfasinin Acilmasi
 - [ ] Login Yapisinin Olusturulmasi (localStorage)
 - [ ] Eger Kullanici Login ise Logout Olabilmesi (localStorage)
 - [ ] Eger Kullanici Login ise Urunleri Favorilere Atabilsin(localStorage)
