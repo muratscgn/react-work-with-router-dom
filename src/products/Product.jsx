@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import PageNotFound from "../pages/PageNotFound"
 
-export default function Product() {
+export default function Product({ user }) {
   // const params = useParams()
   // console.log(params)
 

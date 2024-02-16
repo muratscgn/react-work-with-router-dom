@@ -25,7 +25,7 @@ export default function Navbar({ user, handleLogout }) {
                     <NavLink className="nav-link" to="/fav">Favorites</NavLink>
                   </div>
                   <div className="btn btn-outline-success">
-                    <NavLink className="nav-link" onClick={handleLogout}>Welcome {user.name}</NavLink>
+                    <NavLink className="nav-link" onClick={handleLogout}>Logout ({user.name})</NavLink>
                   </div>
                 </>
                 :
