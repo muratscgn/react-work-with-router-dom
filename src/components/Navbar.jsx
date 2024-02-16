@@ -17,11 +17,21 @@ export default function Navbar({ user, handleLogout }) {
               <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </div>
           </div>
-          <div className="d-flex justify-content-end btn btn-outline-success">
+          <div className="d-flex justify-content-end">
             {
               user ?
-                <NavLink className="nav-link" onClick={handleLogout}>Welcome {user.name}</NavLink> :
-                <NavLink className="nav-link" to="/login">Login</NavLink>
+                <>
+                  <div className="btn btn-outline-danger mx-2">
+                    <NavLink className="nav-link" to="/fav">Favorites</NavLink>
+                  </div>
+                  <div className="btn btn-outline-success">
+                    <NavLink className="nav-link" onClick={handleLogout}>Welcome {user.name}</NavLink>
+                  </div>
+                </>
+                :
+                <div className="btn btn-outline-primary">
+                  <NavLink className="nav-link" to="/login">Login</NavLink>
+                </div>
             }
           </div>
         </div>
